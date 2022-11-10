@@ -1,20 +1,17 @@
-import React from 'react';
+import React from "react";
+import Header from "./components/Header";
+import ShowDog from "./components/ShowDog";
 
-import Header from './components/Header';
-import ShowCat from './components/ShowCat';
-
-import './App.css';
+import "./App.css";
 
 const App = () => {
   return (
-    <div  className='container'>
+    <div className="container">
+      <Header />
 
-      <Header /> 
-
-      <ShowCat /> 
-      
+      <ShowDog />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
